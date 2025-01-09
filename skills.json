@@ -493,7 +493,7 @@
                 },
                 {
                     "name": "Capital Ships",
-                    "id": 28374,
+                    "id": 20533,
                     "required": 4,
                     "failable": true
                 },
@@ -636,7 +636,7 @@
                 },
                 {
                     "name": "Capital Ships",
-                    "id": 28374,
+                    "id": 20533,
                     "required": 4,
                     "failable": true
                 },
@@ -779,7 +779,7 @@
                 },
                 {
                     "name": "Capital Ships",
-                    "id": 28374,
+                    "id": 20533,
                     "required": 4,
                     "failable": true
                 },
