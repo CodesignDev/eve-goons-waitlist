@@ -47,8 +47,7 @@
             "id": 22809,
             "required": 1,
             "failable": true
-        },
-        {
+        }
     ],
     "categories": [
         {
