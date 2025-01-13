@@ -70,6 +70,11 @@ class FcWaitlist extends React.Component {
         });
 
         setInterval(this.fleetUpdate.bind(this), 10 * 1000);
+        setTimeout(() => $('[data-toggle="tooltip"]').tooltip('dispose').tooltip())
+    }
+
+    componentDidUpdate() {
+        setTimeout(() => $('[data-toggle="tooltip"]').tooltip('dispose').tooltip())
     }
 
     getFleetGlance() {

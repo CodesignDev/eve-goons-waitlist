@@ -1,5 +1,55 @@
 {
-    "generalSkills": [],
+    "generalSkills": [
+        {
+            "name": "EM Shield Compensation",
+            "id": 12365,
+            "required": 1,
+            "failable": false
+        },
+        {
+            "name": "Explosive Shield Compensation",
+            "id": 12367,
+            "required": 1,
+            "failable": false
+        },
+        {
+            "name": "Kinetic Shield Compensation",
+            "id": 12366,
+            "required": 1,
+            "failable": false
+        },
+        {
+            "name": "Thermal Shield Compensation",
+            "id": 11566,
+            "required": 1,
+            "failable": false
+        },
+        {
+            "name": "EM Armor Compensation",
+            "id": 22806,
+            "required": 1,
+            "failable": true
+        },
+        {
+            "name": "Explosive Armor Compensation",
+            "id": 22807,
+            "required": 1,
+            "failable": true
+        },
+        {
+            "name": "Kinetic Armor Compensation",
+            "id": 22808,
+            "required": 1,
+            "failable": true
+        },
+        {
+            "name": "Thermal Armor Compensation",
+            "id": 22809,
+            "required": 1,
+            "failable": true
+        },
+        {
+    ],
     "categories": [
         {
             "category": "Newbee Ships - Logistics - Augoror",
@@ -64,7 +114,7 @@
             "Skills": [
                 {
                     "name": "Minmatar Battleship",
-                    "id": 3336,
+                    "id": 3337,
                     "required": 3,
                     "failable": true
                 },
@@ -93,7 +143,7 @@
                     "failable": true
                 },
                 {
-                    "name": "Resistance Phasing IV",
+                    "name": "Resistance Phasing",
                     "id": 32797,
                     "required": 4,
                     "failable": true
@@ -128,7 +178,7 @@
                     "failable": true
                 },
                 {
-                    "name": "Resistance Phasing IV",
+                    "name": "Resistance Phasing",
                     "id": 32797,
                     "required": 4,
                     "failable": true
@@ -169,7 +219,7 @@
                     "failable": true
                 },
                 {
-                    "name": "Resistance Phasing IV",
+                    "name": "Resistance Phasing",
                     "id": 32797,
                     "required": 4,
                     "failable": true
@@ -198,7 +248,7 @@
                     "failable": true
                 },
                 {
-                    "name": "Resistance Phasing IV",
+                    "name": "Resistance Phasing",
                     "id": 32797,
                     "required": 4,
                     "failable": true
@@ -989,7 +1039,7 @@
             ]
         },
         {
-            "category": "Capital Ships - Fax - LIf",
+            "category": "Capital Ships - Fax - Lif",
             "Skills": [
                 {
                     "name": "Minmitar Carrier",
@@ -1020,6 +1070,41 @@
                     "id": 24568,
                     "required": 4,
                     "failable": true
+                }
+            ]
+        },
+        {
+            "category": "Misc Skills",
+            "Skills": [
+                {
+                    "name": "Cybernetics",
+                    "id": 3411,
+                    "required": 5,
+                    "failable": false
+                },
+                {
+                    "name": "Armored Command Specialist",
+                    "id": 11569,
+                    "required": 5,
+                    "failable": false
+                },
+                {
+                    "name": "Information Command Specialist",
+                    "id": 3352,
+                    "required": 5,
+                    "failable": false
+                },
+                {
+                    "name": "Shield Command Specialist",
+                    "id": 3351,
+                    "required": 5,
+                    "failable": false
+                },
+                {
+                    "name": "Skirmish Command Specialist",
+                    "id": 11572,
+                    "required": 5,
+                    "failable": false
                 }
             ]
         }
