@@ -28,7 +28,7 @@ exports.data = {
 	directory: 'data', //Where data will be stored
 	sessionSecret: process.env.SESSION_SECRET || '',
 	mongoDbURL: process.env.MONGODB_URI || 'mongoDB://localhost:27017',
-	mongoDbName: process.env.MONGO_DB || 'EveGoonsWaitlist'
+	mongoDbName: process.env.MONGODB_NAME || 'EveGoonsWaitlist'
 }
 
 exports.fleet = {
