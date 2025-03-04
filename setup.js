@@ -15,7 +15,7 @@ exports.oauth = {
 		'esi-ui.write_waypoint.v1',
 		'esi-wallet.read_character_wallet.v1',
 	],
-	userAgent: 'express 4.9.5, eve-sso, goons-incursionauth 2.0.0',
+	userAgent: 'express 4.9.5, eve-sso, goons-incursionauth 2.0.0 (Contact Codesign in-game or on Discord for queries)',
 	baseSSOUrl: 'login.eveonline.com'
 };
 
