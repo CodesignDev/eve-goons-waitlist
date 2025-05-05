@@ -3,8 +3,6 @@ exports.oauth = {
 	secretKey: process.env.SECRET_KEY || '',
 	callbackURL: process.env.CALLBACK_URL || 'http://localhost:8113/auth/provider/callback',
 	scopes: [
-		'esi-assets.read_assets.v1',
-		'esi-fittings.read_fittings.v1',
 		'esi-fleets.read_fleet.v1',
 		'esi-fleets.write_fleet.v1',
 		'esi-location.read_location.v1',
@@ -13,9 +11,8 @@ exports.oauth = {
 		'esi-skills.read_skills.v1',
 		'esi-ui.open_window.v1',
 		'esi-ui.write_waypoint.v1',
-		'esi-wallet.read_character_wallet.v1',
 	],
-	userAgent: 'gsf-incursiontool/v2.0.0 (eve:codesign; discord:codesign)',
+	userAgent: process.env.ESI_USER_AGENT || 'gsf-incursiontool/v2.0.0 (eve:codesign; discord:codesign)',
 	baseSSOUrl: 'login.eveonline.com'
 };
 
