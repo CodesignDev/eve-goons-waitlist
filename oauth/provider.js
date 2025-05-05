@@ -11,8 +11,8 @@ const customSSO = require('./customSSO.js')(refresh, setup, request, url);
 
 //Configure Passport's oAuth
 var oauthStrategy = new OAuth2Strategy({
-    authorizationURL: `https://${setup.oauth.baseSSOUrl}/oauth/authorize`,
-    tokenURL: `https://${setup.oauth.baseSSOUrl}/oauth/token`,
+    authorizationURL: `https://${setup.oauth.baseSSOUrl}/v2/oauth/authorize`,
+    tokenURL: `https://${setup.oauth.baseSSOUrl}/v2/oauth/token`,
     clientID: setup.oauth.clientID,
     clientSecret: setup.oauth.secretKey,
     callbackURL: setup.oauth.callbackURL,
