@@ -16,7 +16,8 @@ var oauthStrategy = new OAuth2Strategy({
     clientID: setup.oauth.clientID,
     clientSecret: setup.oauth.secretKey,
     callbackURL: setup.oauth.callbackURL,
-    passReqToCallback: true
+    passReqToCallback: true,
+    state: true
 },
 function (req, accessToken, refreshToken, profile, done) {
     //Get Character Details
